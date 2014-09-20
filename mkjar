@@ -1,0 +1,6 @@
+#!/bin/sh
+cd bin
+jar cfm Craps.jar ../Manifest *.class
+mv Craps.jar ..
+cd ..
+jar uf Craps.jar table2.png chip.png off.png on.png
